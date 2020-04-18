@@ -1,0 +1,87 @@
+body{
+ /* display:inline-block; */
+ width: 100vw;
+ height:100vh;
+ box-sizing: border-box;
+ padding:0;
+
+}
+.container{
+    display:inline-block;
+    padding:0;
+    background-color: red;
+    box-sizing: border-box;
+    width:50%;
+    height:50%;
+    margin-left: 25vw;
+    margin-top: 25vh;
+    position: relative;
+}
+.container>.virsus{
+    display:inline-block;
+    background-color: black;
+    height:25%;
+    width:20%;
+    /* margin-left: 40%; */
+    position:absolute;
+    top: 5%;
+    left: 40%;
+    
+}
+.container>.centercolumn{
+    display:inline-block;
+    padding:5%;
+    background-color: yellow;
+    box-sizing: border-box;
+    width:34%;
+    height:40%;
+    position: absolute;
+    top: 30%;
+    left: 33%; 
+}
+.container>.centercolumn>.row{
+    display:inline-block;
+    padding:0;
+    box-sizing: border-box;
+    background-color: aqua;
+    width:50%;
+    height:30%;      
+    position: absolute; 
+    top: 35%;
+    left: 25%;
+}
+.container>.kaire{
+    display:inline-block;
+    background-color: green;
+    width:33%;
+    height:50%;
+    position:absolute;
+    float:left;
+    top: 25%;
+    
+
+}
+.container>.desine{
+    display:inline-block;
+    float: right;
+    background-color: blue;
+    width:33%;
+    height:50%;
+    position:absolute;
+    top:25%;
+    right:0;
+        
+}
+
+.container>.apacia{
+    display:inline-block;
+    background-color: purple;
+    height:25%;
+    width:20%;
+    position:absolute;
+    top: 70%;
+    left: 40%;
+
+}  
+
+
